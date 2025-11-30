@@ -1,0 +1,44 @@
+# =====================================
+# Node.js
+# =====================================
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Env
+.env
+.env.local
+.env.production
+.env.development
+
+# DB local files
+*.sqlite
+*.db
+
+# Mac / Windows junk
+.DS_Store
+Thumbs.db
+
+# cPanel or deployment artifacts
+.ssh/
+.cpanel/
+
+# Generated folders by hosting
+tmp/
+.cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Git remnants
+*.orig
